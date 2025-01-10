@@ -1,9 +1,11 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+using System;
 using System.Collections.Generic;
 
 //Escribir un programa que almacene las asignaturas de un curso
-//(por ejemplo Matemáticas, Física,Química, Historia y Lengua)
-//en una lista y la muestre por pantalla.
+//(por ejemplo Matemáticas, Física, Química, Historia y Lengua)
+//en una lista y la muestre por pantalla el mensaje Yo estudio <asignatura>,
+//donde <asignatura> es cada una de las asignaturas de la lista.
 
 namespace AsignaturasCurso
 {
@@ -32,13 +34,12 @@ namespace AsignaturasCurso
             }
         }
 
-        // Método para mostrar las asignaturas por pantalla
-        public void MostrarAsignaturas()
+        // Método para mostrar el mensaje personalizado por cada asignatura
+        public void MostrarMensajesDeEstudio()
         {
-            Console.WriteLine("Asignaturas del curso: \n");
             foreach (var asignatura in Asignaturas)
             {
-                Console.WriteLine($"- {asignatura}");
+                Console.WriteLine($"Yo estudio {asignatura}");
             }
         }
     }
@@ -53,12 +54,12 @@ namespace AsignaturasCurso
             // Agregar asignaturas al curso
             curso.AgregarAsignatura("Matemáticas \n");
             curso.AgregarAsignatura("Física \n");
-            curso.AgregarAsignatura("Química \n");
+            curso.AgregarAsignatura("Química\n ");
             curso.AgregarAsignatura("Historia \n");
-            curso.AgregarAsignatura("Lengua \n");
+            curso.AgregarAsignatura("Lengua\n");
 
-            // Mostrar las asignaturas por pantalla
-            curso.MostrarAsignaturas();
+            // Mostrar el mensaje personalizado para cada asignatura
+            curso.MostrarMensajesDeEstudio();
 
             // Mantener la consola abierta
             Console.WriteLine("\nPresiona cualquier tecla para salir...");
@@ -66,4 +67,3 @@ namespace AsignaturasCurso
         }
     }
 }
-

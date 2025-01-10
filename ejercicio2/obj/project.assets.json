@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stefa\\Downloads\\MIS ARCHIVOS\\ESTRUCTURA-DE-DATOS\\Ejercicio1\\Ejercicio1.csproj",
-      "projectName": "Ejercicio1",
-      "projectPath": "C:\\Users\\stefa\\Downloads\\MIS ARCHIVOS\\ESTRUCTURA-DE-DATOS\\Ejercicio1\\Ejercicio1.csproj",
+      "projectUniqueName": "C:\\Users\\stefa\\Downloads\\MIS ARCHIVOS\\ESTRUCTURA-DE-DATOS\\ejercicio2\\ejercicio2.csproj",
+      "projectName": "ejercicio2",
+      "projectPath": "C:\\Users\\stefa\\Downloads\\MIS ARCHIVOS\\ESTRUCTURA-DE-DATOS\\ejercicio2\\ejercicio2.csproj",
       "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stefa\\Downloads\\MIS ARCHIVOS\\ESTRUCTURA-DE-DATOS\\Ejercicio1\\obj\\",
+      "outputPath": "C:\\Users\\stefa\\Downloads\\MIS ARCHIVOS\\ESTRUCTURA-DE-DATOS\\ejercicio2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config"
